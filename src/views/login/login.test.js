@@ -1,4 +1,4 @@
-import * as sum from '@/utils/utils';
+import sum from '@/utils/utils';
 
 test('sum number in JavaScript', () => {
   const c = sum(22, 33);
