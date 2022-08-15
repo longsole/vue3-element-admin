@@ -17,6 +17,7 @@ module.exports = {
         ignorePropertyModificationsFor: ['state', 'e'],
       },
     ],
+    'vue/multi-word-component-names': 0,
   },
   settings: {
     'import/resolver': {

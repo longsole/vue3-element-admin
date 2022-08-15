@@ -9,7 +9,6 @@ import { computed } from 'vue';
 import { useStore } from 'vuex';
 
 export default {
-  name: 'LoginView',
   setup() {
     const store = useStore();
     const userName = computed(() => store.getters['user/userName']);
