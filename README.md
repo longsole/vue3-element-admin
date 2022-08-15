@@ -1,18 +1,18 @@
 # vue3-element-admin
 
-### insalll
+### Installl
 
 ```js
 npm install
 ```
 
-### build
+### Build
 
 ```js
 npm run build
 ```
 
-### run dev
+### Run dev
 
 ```js
 npm run dev

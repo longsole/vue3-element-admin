@@ -2,15 +2,20 @@ import { createApp } from 'vue';
 import App from '@/App.vue';
 import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css';
-import router from '@/router';
+import { setupRouter } from '@/router';
+import { setupI18n } from '@/locales';
+import { setupStore } from './store';
 
-// const startApp = () => {
 const app = createApp(App);
 
-app.use(ElementPlus);
-app.use(router);
+const startApp = () => {
+  app.use(ElementPlus);
 
-app.mount('#root');
-// };
+  setupRouter(app);
+  setupI18n(app);
+  setupStore(app);
 
-// startApp();
+  app.mount('#root');
+};
+
+startApp();

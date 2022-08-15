@@ -1,5 +1,5 @@
 <template>
-  <div>this is app</div>
+  <div>{{ $t('message') }}</div>
   <div>
     <router-view></router-view>
   </div>

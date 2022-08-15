@@ -28,4 +28,6 @@ const router = createRouter({
 
 export const resetRouter = () => {};
 
-export default router;
+export const setupRouter = (app) => {
+  app.use(router);
+};

@@ -10,7 +10,13 @@ module.exports = {
   },
   plugins: ['vue'],
   rules: {
-    'vue/html-indent': 2,
+    'no-param-reassign': [
+      'error',
+      {
+        props: true,
+        ignorePropertyModificationsFor: ['state', 'e'],
+      },
+    ],
   },
   settings: {
     'import/resolver': {
