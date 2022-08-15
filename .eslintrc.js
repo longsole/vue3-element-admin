@@ -18,6 +18,14 @@ module.exports = {
       },
     ],
     'vue/multi-word-component-names': 0,
+    'comma-dangle': [
+      'error',
+      {
+        arrays: 'always-multiline',
+        objects: 'only-multiline',
+        functions: 'never',
+      },
+    ],
   },
   settings: {
     'import/resolver': {
