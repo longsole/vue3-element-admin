@@ -11,9 +11,7 @@ import Login from '../login/Login.vue';
 export default {
   components: [Login],
   setup() {
-    const login = () => {
-      console.log(Login);
-    };
+    const login = () => {};
 
     return { login };
   },
