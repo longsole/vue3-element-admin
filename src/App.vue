@@ -1,5 +1,6 @@
 <template>
   <div>{{ $t('message') }}</div>
+  <div class="app">app console</div>
   <div>
     <router-view></router-view>
   </div>
@@ -10,3 +11,9 @@ export default {
   setup() {},
 };
 </script>
+<style scoped>
+.app {
+  color: yellow;
+}
+</style>
+>

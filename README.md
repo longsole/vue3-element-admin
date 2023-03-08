@@ -17,3 +17,24 @@ npm run build
 ```js
 npm run dev
 ```
+
+### Technology stack
+
+```ts
+  - Vue3
+  - Element Plus
+  - TypeScript
+  - Less
+  - webpack 5
+  - vuex
+  - vue-router
+  - babel
+  - jest
+  - postcss
+  - eslint
+  - husky 、lint-staged、commitlint
+  - vue-i18n
+  - axios
+  - cypress
+
+```

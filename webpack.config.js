@@ -34,12 +34,12 @@ module.exports = {
         use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
       {
-        test: /\.less$/i,
+        test: /\.scss$/i,
         use: [
-          // compiles Less to CSS
+          // compiles sass to CSS
           'style-loader',
           'css-loader',
-          'less-loader',
+          'sass-loader',
         ],
       },
       // for i18n resources (json/json5/yaml)
