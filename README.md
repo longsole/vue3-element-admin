@@ -24,7 +24,7 @@ npm run dev
   - Vue3
   - Element Plus
   - TypeScript
-  - Less
+  - Sass
   - webpack 5
   - vuex
   - vue-router
